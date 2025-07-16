@@ -8,7 +8,7 @@ import requests
 st.set_page_config(page_title="Crystal Brain – Clinical Chatbot", layout="wide")
 
 # --- Google Sheets Logging ---
-GOOGLE_SHEET_WEBHOOK_URL = "https://your-google-webhook-url"  # Replace with your own
+GOOGLE_SHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwDkEQESqtxHU0C7N5-i_3755l7Pc2oht76N-o7YS9SczMODl3Mg1u6jhzRv6EOLbwo/exec"
 
 def log_to_sheets(question, answer, feedback):
     payload = {
